@@ -77,9 +77,9 @@ export class AREngine {
             // Bases
             { id: 'trestle_adjustable', url: 'assets/bases/trestle_adjustable.glb' },
             // { id: 'trestle_normal', url: 'assets/bases/trestle_normal.glb' },
-            // { id: 'rustic_wood_1', url: 'assets/bases/rustic_wood_1.glb' },
+            { id: 'rustic_wood_1', url: 'assets/bases/rustic_wood_1.glb' },
             // { id: 'rustic_wood_2', url: 'assets/bases/rustic_wood_2.glb' },
-            // { id: 'triple_leg', url: 'assets/bases/triple_leg.glb' },
+            { id: 'triple_leg', url: 'assets/bases/triple_leg.glb' },
             // { id: 'quad_leg', url: 'assets/bases/quad_leg.glb' },
             
             // Rectangular Tops
@@ -89,7 +89,7 @@ export class AREngine {
             
             // Round Tops
             // { id: 'round_standard', url: 'assets/tops/round_standard.glb' },
-            // { id: 'round_bevel', url: 'assets/tops/round_bevel.glb' }
+            { id: 'round_bevel', url: 'assets/tops/round_bevel.glb' }
         ];
 
         modelsToLoad.forEach(item => {
